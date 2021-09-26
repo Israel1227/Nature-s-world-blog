@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: "Montserrat" Arial, Helvetica, sans-serif;
+}
+
+    /*NAV BAR SECTION*/
+a{
+    text-decoration: none;
+    color: #000;
+    margin: 1rem;
+    color: white;
+}
+
+.logo h3{
+    font-family: cursive;
+}
+
+li{
+    list-style: none;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    background-color: #000;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+    /* End of Nav section */
+
+    /* Hero section */
+#hero{
+    background-image: url(./images/beautiful_sunset.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+}
+
+.hero-text{
+    color: white;
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 2rem;
+    margin-top: 6rem;
+}
+    /* End of hero section  */
+
+/* Gallery section */
+
+.gallery img{
+    width: 200px;
+    height: 150px;
+}
+
+div.gallery{
+    float: left;
+    border: transparent; 
+    margin: 1rem;
+}
+
+.row1, .row2, .row3{
+    margin-left: 18%;
+}
+.row1{
+    margin-top: -3rem;
+}
+
+.text-block{
+    padding: 5px;
+    text-align: center;
+    margin-top: 0%;
+}
+
+.gallery a{
+    color: blue;
+}
+/* End of Gallery section */
+
+/* Footer */
+
+footer{
+    width: 100vw;
+    height: 8rem;
+    background-color: black;
+    color: white;
+    text-align: center;
+    
+}
